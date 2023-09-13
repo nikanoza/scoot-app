@@ -1,5 +1,6 @@
 import { MobileMenu } from "../components";
 import { Close, Hamburger, Logo } from "../svg";
+import { Link } from "react-router-dom";
 
 type PropsType = {
   setShowMenu: React.Dispatch<React.SetStateAction<boolean>>;
@@ -15,7 +16,13 @@ const Header: React.FC<PropsType> = ({ showMenu, setShowMenu }) => {
       ) : (
         <Hamburger onClick={() => setShowMenu(true)} />
       )}
-      <Logo color="#495567" className="mx-auto -translate-x-5" />
+      <Link
+        to="/"
+        onClick={() => setShowMenu(false)}
+        className="mx-auto -translate-x-5"
+      >
+        <Logo color="#495567" />
+      </Link>
     </header>
   );
 };
