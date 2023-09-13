@@ -11,7 +11,7 @@ const Action: React.FC<PropsType> = ({ icon, title, description }) => {
       <h3 className="mono font-bold text-xl text-semi-gray tracking-[-0.893px] text-center">
         {title}
       </h3>
-      <p className="lexend font-normal text-[15px] text-semi-gray text-center">
+      <p className="lexend font-normal text-[15px] text-opacity-gray text-center">
         {description}
       </p>
     </div>
