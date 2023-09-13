@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&family=Space+Mono:wght@700&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -11,4 +13,13 @@
 body {
   width: 100vw;
   min-height: 100vh;
+}
+
+@layer utilities {
+  .mono {
+    font-family: "Space Mono", monospace;
+  }
+  .lexend {
+    font-family: "Lexend Deca", sans-serif;
+  }
 }
