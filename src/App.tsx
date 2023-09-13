@@ -1,8 +1,11 @@
+import { Header, Routing } from "./layouts";
+
 function App() {
   return (
-    <>
-      <div className=" w-full h-screen bg-red-500"></div>
-    </>
+    <div className="w-full min-h-screen">
+      <Header />
+      <Routing />
+    </div>
   );
 }
 
