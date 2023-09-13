@@ -8,6 +8,7 @@ export default {
         gray: "#333A44",
         "light-gray": "#E5ECF4",
         yellow: "#FCB72B",
+        "opacity-gray": "#939CAA",
       },
     },
   },

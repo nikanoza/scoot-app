@@ -1,6 +1,11 @@
-const RightArrow = () => {
+const RightArrow: React.FC<{ className?: string }> = ({ className }) => {
   return (
-    <svg xmlns="http://www.w3.org/2000/svg" width="452" height="151">
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="452"
+      height="151"
+      className={className}
+    >
       <g
         fill="none"
         fillRule="evenodd"
