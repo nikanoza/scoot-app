@@ -1,3 +1,5 @@
+import { RightArrow } from "../../svg";
+
 const Banner = () => {
   return (
     <div className="w-full h-[650px] home-hero-mobile flex flex-col items-center px-8">
@@ -9,6 +11,10 @@ const Banner = () => {
         convenient locations in each of our cities. Use our app to locate the
         nearest bike, unlock it with a tap, and you’re away!
       </p>
+      <button className="px-10 py-3 bg-yellow mono font-bold text-base text-white border-none mt-9">
+        Get Scootin
+      </button>
+      <RightArrow className="absolute top-[540px] -left-80" />
     </div>
   );
 };
