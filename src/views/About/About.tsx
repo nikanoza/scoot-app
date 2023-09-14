@@ -51,6 +51,9 @@ const About = () => {
           </div>
         </div>
       </ul>
+      <h2 className="mono font-bold text-semi-gray text-[32px] text-center mt-[120px]">
+        Our values
+      </h2>
     </div>
   );
 };
