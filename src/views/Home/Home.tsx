@@ -2,7 +2,7 @@ import { Actions, Banner, Infos } from "../../components";
 
 const Home = () => {
   return (
-    <div className="w-full bg-white">
+    <div className="w-full">
       <Banner />
       <Actions />
       <Infos />
