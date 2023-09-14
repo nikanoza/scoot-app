@@ -1,6 +1,24 @@
 import { BetterLiving, DigitalEra } from "../../assets";
-import { Cards } from "../../components";
+import { Cards, Question } from "../../components";
 import { LeftUpwardArrow, RightArrow } from "../../svg";
+
+const works = [
+  {
+    question: "How do I download the app?",
+    answer:
+      "To download the Scoot app, you can search “Scoot” in both the App and Google Play stores. An even simpler way to do it would be to click the relevant link at the bottom of this page and you’ll be re-directed to the correct page.",
+  },
+  {
+    question: "Can I find a nearby Scoots?",
+    answer:
+      "To download the Scoot app, you can search “Scoot” in both the App and Google Play stores. An even simpler way to do it would be to click the relevant link at the bottom of this page and you’ll be re-directed to the correct page.",
+  },
+  {
+    question: "Do I need a license to ride?",
+    answer:
+      "To download the Scoot app, you can search “Scoot” in both the App and Google Play stores. An even simpler way to do it would be to click the relevant link at the bottom of this page and you’ll be re-directed to the correct page.",
+  },
+];
 
 const About = () => {
   return (
@@ -62,6 +80,11 @@ const About = () => {
       <h3 className="mono font-bold text-semi-gray text-2xl text-center mt-12">
         How it works
       </h3>
+      <ul className="w-full flex flex-col gap-4 px-8 mt-8">
+        {works.map((work) => (
+          <Question key={work.question} {...work} />
+        ))}
+      </ul>
     </div>
   );
 };

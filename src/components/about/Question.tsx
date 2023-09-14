@@ -13,11 +13,18 @@ const Question: React.FC<PropsType> = ({ question, answer }) => {
     <div className="w-full p-8 bg-light">
       <div className="flex justify-between items-center gap-4">
         <h3 className="mono text-lg text-semi-gray font-bold">{question}</h3>
-        <div style={{ transform: showAnswer ? "rotate(180deg)" : "none" }}>
+        <div
+          style={{ transform: showAnswer ? "rotate(180deg)" : "none" }}
+          onClick={() => setShowAnswer(!showAnswer)}
+        >
           <Chevron />
         </div>
       </div>
-      {showAnswer && <p>{answer}</p>}
+      {showAnswer && (
+        <p className="lexend font-normal text-semi-gray text-[15px] mt-4">
+          {answer}
+        </p>
+      )}
     </div>
   );
 };
