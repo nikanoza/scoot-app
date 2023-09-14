@@ -1,5 +1,5 @@
 import { JoinUs } from "../../assets";
-import { Info } from "../../components";
+import { Cards, Info } from "../../components";
 import { LeftDownwardArrow } from "../../svg";
 
 const Careers = () => {
@@ -21,6 +21,10 @@ const Careers = () => {
           button="Say Hello"
         />
       </div>
+      <h2 className="mono font-bold text-semi-gray text-[32px] text-center mt-[120px]">
+        Why join us?
+      </h2>
+      <Cards />
     </div>
   );
 };
