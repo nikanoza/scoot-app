@@ -20,6 +20,24 @@ const works = [
   },
 ];
 
+const safe = [
+  {
+    question: "Should I wear a helmet?",
+    answer:
+      "Yes, please do! All cities have different laws. But we strongly strongly strongly recommend always wearing a helmet regardless of the local laws. We like you and we want you to be as safe as possible while Scooting.",
+  },
+  {
+    question: "How about the rules & regulations?",
+    answer:
+      "Yes, please do! All cities have different laws. But we strongly strongly strongly recommend always wearing a helmet regardless of the local laws. We like you and we want you to be as safe as possible while Scooting.",
+  },
+  {
+    question: "What if I damage my Scoot?",
+    answer:
+      "Yes, please do! All cities have different laws. But we strongly strongly strongly recommend always wearing a helmet regardless of the local laws. We like you and we want you to be as safe as possible while Scooting.",
+  },
+];
+
 const About = () => {
   return (
     <div className="w-full">
@@ -82,6 +100,14 @@ const About = () => {
       </h3>
       <ul className="w-full flex flex-col gap-4 px-8 mt-8">
         {works.map((work) => (
+          <Question key={work.question} {...work} />
+        ))}
+      </ul>
+      <h3 className="mono font-bold text-semi-gray text-2xl text-center mt-12">
+        Safe driving
+      </h3>
+      <ul className="w-full flex flex-col gap-4 px-8 mt-8">
+        {safe.map((work) => (
           <Question key={work.question} {...work} />
         ))}
       </ul>
