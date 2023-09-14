@@ -32,6 +32,10 @@ body {
     background-image: url(./assets/images/about-hero-mobile.jpg);
     background-size: 100% 100%;
   }
+  .careers-hero-mobile {
+    background-image: url(./assets/images/careers-location-hero-mobile.jpg);
+    background-size: 100% 100%;
+  }
   .footer-mobile {
     background-image: url(./assets/images/footer-mobile.png);
     background-size: 100% 100%;
