@@ -4,7 +4,7 @@ import { LeftDownwardArrow, RightArrow } from "../../svg";
 
 const Infos = () => {
   return (
-    <section className="mt-32 flex flex-col w-full px-8 gap-[120px]">
+    <section className="mt-32 flex flex-col w-full px-8 gap-[120px] mb-[120px]">
       <div className="w-full relative">
         <div className="absolute top-40 -right-[420px]">
           <LeftDownwardArrow />
