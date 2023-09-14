@@ -15,3 +15,4 @@ export { default as BetterLiving } from "./better-living.jpg";
 export { default as OurTech } from "./our-tech.jpg";
 export { default as OurIntegrity } from "./our-integrity.jpg";
 export { default as OurCommunity } from "./our-community.jpg";
+export { default as JoinUs } from "./join-us.jpg";
