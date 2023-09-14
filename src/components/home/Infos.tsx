@@ -1,10 +1,14 @@
 import { Info } from "..";
 import { NearYou, Payments, Telemetry } from "../../assets";
+import { LeftDownwardArrow, RightArrow } from "../../svg";
 
 const Infos = () => {
   return (
     <section className="mt-32 flex flex-col w-full px-8 gap-[120px]">
       <div className="w-full relative">
+        <div className="absolute top-40 -right-[420px]">
+          <LeftDownwardArrow />
+        </div>
         <img src={Telemetry} alt="telemetry" className="rounded-full mb-14" />
         <Info
           title="Easy to use riding telemetry"
@@ -12,7 +16,10 @@ const Infos = () => {
           button="Learn More"
         />
       </div>
-      <div className="w-full">
+      <div className="w-full relative">
+        <div className="absolute top-0 -left-[200px]">
+          <RightArrow />
+        </div>
         <img src={NearYou} alt="telemetry" className="rounded-full mb-14" />
         <Info
           title="Coming to a city near you"
@@ -20,7 +27,10 @@ const Infos = () => {
           button="Learn More"
         />
       </div>
-      <div className="w-full">
+      <div className="w-full relative">
+        <div className="absolute top-0 -right-[550px]">
+          <LeftDownwardArrow />
+        </div>
         <img src={Payments} alt="telemetry" className="rounded-full mb-14" />
         <Info
           title="Zero hassle payments"
