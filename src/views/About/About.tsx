@@ -56,6 +56,12 @@ const About = () => {
         Our values
       </h2>
       <Cards />
+      <h2 className="mono font-bold text-semi-gray text-[32px] text-center mt-36">
+        FAQs
+      </h2>
+      <h3 className="mono font-bold text-semi-gray text-2xl text-center mt-12">
+        How it works
+      </h3>
     </div>
   );
 };
