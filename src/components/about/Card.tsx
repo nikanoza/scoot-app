@@ -13,7 +13,7 @@ const Card: React.FC<PropsType> = ({ image, num, title, description }) => {
         alt="card poster"
         className="w-[240px] h-[240px] rounded-full"
       />
-      <div className="w-24 h-24 rounded-full bg-yellow flex items-center justify-center -mt-20">
+      <div className="w-24 h-24 rounded-full bg-yellow flex items-center justify-center -mt-14">
         <h3 className="mono font-bold text-2xl text-semi-gray">{num}</h3>
       </div>
       <h3 className="mono font-bold text-2xl text-semi-gray mt-4">{title}</h3>

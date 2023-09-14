@@ -1,4 +1,5 @@
 import { BetterLiving, DigitalEra } from "../../assets";
+import { Cards } from "../../components";
 import { LeftUpwardArrow, RightArrow } from "../../svg";
 
 const About = () => {
@@ -54,6 +55,7 @@ const About = () => {
       <h2 className="mono font-bold text-semi-gray text-[32px] text-center mt-[120px]">
         Our values
       </h2>
+      <Cards />
     </div>
   );
 };
