@@ -1,5 +1,5 @@
 import { OurCommunity, OurIntegrity, OurTech } from "../../assets";
-import Card from "./Card";
+import Card from "../shared/Card";
 
 const cards = [
   {
