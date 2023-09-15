@@ -32,7 +32,7 @@ const Employees = () => {
     <div className="w-full mt-36">
       <ul className="w-full flex flex-col gap-4 px-8">
         {employees.map((employee) => (
-          <Employee key={employee.address} {...employee} />
+          <Employee key={employee.position} {...employee} />
         ))}
       </ul>
     </div>

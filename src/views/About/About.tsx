@@ -41,7 +41,7 @@ const safe = [
 const About = () => {
   return (
     <div className="w-full">
-      <div className="w-full py-[60px] md:pl-24 md:flex md:items-center md:justify-between about-hero-mobile ms:about-hero-tablet xl:about-hero-desktop">
+      <div className="w-full py-[60px] md:pl-24 md:flex md:items-center md:justify-between about-hero-mobile md:about-hero-tablet xl:about-hero-desktop">
         <h2 className="mono font-bold text-white text-[40px] text-center">
           About
         </h2>
