@@ -7,7 +7,7 @@ const Careers = () => {
     <div className="w-full">
       <div className="w-full py-[60px] md:pl-24 md:flex md:items-center md:justify-between careers-hero-mobile md:careers-hero-tablet xl:careers-hero-desktop">
         <h2 className="mono font-bold text-white text-[40px] text-center">
-          careers
+          Careers
         </h2>
         <div className="hidden md:flex items-center gap-6 ml-auto translate-x-8">
           <div className="w-16 h-16 border-4 rounded-full border-white"></div>

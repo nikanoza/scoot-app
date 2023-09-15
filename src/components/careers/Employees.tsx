@@ -30,7 +30,7 @@ const employees = [
 const Employees = () => {
   return (
     <div className="w-full mt-36">
-      <ul className="w-full flex flex-col gap-4 px-8">
+      <ul className="w-full flex flex-col gap-4 px-8 xl:px-40">
         {employees.map((employee) => (
           <Employee key={employee.position} {...employee} />
         ))}
