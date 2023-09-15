@@ -27,7 +27,7 @@ const cards = [
 
 const Cards = () => {
   return (
-    <div className="w-full flex flex-col gap-14 items-center mt-16">
+    <div className="w-full flex flex-col xl:flex-row gap-14 xl:gap-[72px] xl:justify-center items-center mt-16">
       {cards.map((card) => (
         <Card key={card.num} {...card} />
       ))}

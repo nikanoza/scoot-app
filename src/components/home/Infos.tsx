@@ -5,7 +5,7 @@ import { LeftDownwardArrow, RightArrow } from "../../svg";
 const Infos = () => {
   return (
     <section className="mt-32 flex flex-col w-full px-8 md:px-24 xl:px-40 gap-[120px] xl:gap-40">
-      <div className="w-full relative xl:flex xl:flex-row-reverse xl:justify-between">
+      <div className="w-full relative xl:flex xl:flex-row-reverse xl:gap-[220px] xl:justify-center">
         <div className="absolute top-40 md:top-72 -right-[420px] md:-right-[100px] xl:-right-[200px] z-20">
           <LeftDownwardArrow />
         </div>
@@ -21,7 +21,7 @@ const Infos = () => {
           button="Learn More"
         />
       </div>
-      <div className="w-full relative xl:flex xl:justify-between">
+      <div className="w-full relative xl:flex xl:gap-[220px] xl:justify-center">
         <div className="absolute top-0 -left-[200px]">
           <RightArrow />
         </div>
@@ -37,7 +37,7 @@ const Infos = () => {
           button="Learn More"
         />
       </div>
-      <div className="w-full relative xl:flex xl:flex-row-reverse xl:justify-between">
+      <div className="w-full relative xl:flex xl:flex-row-reverse xl:gap-[220px] xl:justify-center">
         <div className="absolute top-0 -right-[550px] md:-right-[400px] xl:-right-[520px] xl:top-24 z-20">
           <LeftDownwardArrow />
         </div>

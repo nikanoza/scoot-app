@@ -7,7 +7,7 @@ type PropsType = {
 
 const Card: React.FC<PropsType> = ({ image, num, title, description }) => {
   return (
-    <div className="w-full flex flex-col items-center">
+    <div className="w-full xl:w-fit flex flex-col items-center">
       <img
         src={image}
         alt="card poster"
