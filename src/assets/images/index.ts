@@ -16,3 +16,4 @@ export { default as OurTech } from "./our-tech.jpg";
 export { default as OurIntegrity } from "./our-integrity.jpg";
 export { default as OurCommunity } from "./our-community.jpg";
 export { default as JoinUs } from "./join-us.jpg";
+export { default as MapMobile } from "./world-map-mobile.png";
