@@ -13,7 +13,7 @@ const Info: React.FC<PropsType> = ({ title, description, button }) => {
       <p className="lexend font-normal text-[15px] text-opacity-gray text-center">
         {description}
       </p>
-      <button className="px-10 py-3 bg-yellow mono font-bold text-base text-white border-none">
+      <button className="px-10 w-fit mx-auto py-3 bg-yellow mono font-bold text-base text-white border-none">
         {button}
       </button>
     </div>
