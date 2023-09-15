@@ -28,6 +28,10 @@ body {
     background-image: url(./assets/images/home-hero-mobile.jpg);
     background-size: 100% 100%;
   }
+  .home-hero-tablet {
+    background-image: url(./assets/images/home-hero-tablet.jpg);
+    background-size: 100% 100%;
+  }
   .about-hero-mobile {
     background-image: url(./assets/images/about-hero-mobile.jpg);
     background-size: 100% 100%;
@@ -38,6 +42,10 @@ body {
   }
   .footer-mobile {
     background-image: url(./assets/images/footer-mobile.png);
+    background-size: 100% 100%;
+  }
+  .footer-tablet {
+    background-image: url(./assets/images/footer-tablet.png);
     background-size: 100% 100%;
   }
 }

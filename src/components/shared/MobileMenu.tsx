@@ -15,7 +15,7 @@ const MobileMenu: React.FC<PropsType> = ({ setShowMenu }) => {
 
   return (
     <div
-      className="h-[calc(100vh-64px)] w-full absolute top-16 left-0 bg-black bg-opacity-70"
+      className="h-[calc(100vh-64px)] w-full absolute top-16 left-0 bg-black bg-opacity-70 md:hidden"
       ref={page}
       onClick={closeMenu}
     >

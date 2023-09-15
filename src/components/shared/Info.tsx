@@ -6,8 +6,8 @@ type PropsType = {
 
 const Info: React.FC<PropsType> = ({ title, description, button }) => {
   return (
-    <div className="w-full flex flex-col gap-8">
-      <h3 className="mono text-semi-gray text-[32px] tracking-[-1.429px] font-bold text-center">
+    <div className="w-full flex flex-col gap-8 md:gap-10">
+      <h3 className="mono md:w-[457px] mx-auto text-semi-gray text-[32px] md:text-[48px] tracking-[-1.429px] md:tracking-[-2.143px] font-bold text-center">
         {title}
       </h3>
       <p className="lexend font-normal text-[15px] text-opacity-gray text-center">
