@@ -9,7 +9,7 @@ type PropsType = {
 
 const Header: React.FC<PropsType> = ({ showMenu, setShowMenu }) => {
   return (
-    <header className="w-full h-16 md:h-24 bg-white flex px-8 md:px-10 items-center relative z-20">
+    <header className="w-full h-16 md:h-24 bg-white flex px-8 md:px-10 xl:px-[169px] items-center relative z-20">
       {showMenu && <MobileMenu setShowMenu={setShowMenu} />}
       {showMenu ? (
         <Close onClick={() => setShowMenu(false)} />

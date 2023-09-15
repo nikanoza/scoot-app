@@ -4,16 +4,16 @@ import { LeftDownwardArrow, RightArrow } from "../../svg";
 
 const Infos = () => {
   return (
-    <section className="mt-32 flex flex-col w-full px-8 md:px-24 gap-[120px]">
-      <div className="w-full relative">
-        <div className="absolute top-40 md:top-72 -right-[420px] md:-right-[100px] z-20">
+    <section className="mt-32 flex flex-col w-full px-8 md:px-24 xl:px-40 gap-[120px] xl:gap-40">
+      <div className="w-full relative xl:flex xl:flex-row-reverse xl:justify-between">
+        <div className="absolute top-40 md:top-72 -right-[420px] md:-right-[100px] xl:-right-[200px] z-20">
           <LeftDownwardArrow />
         </div>
-        <div className="hidden md:block w-[445px] h-[445px] rounded-full bg-light-gray absolute top-0 -right-[450px] z-10"></div>
+        <div className="hidden md:block w-[445px] h-[445px] rounded-full bg-light-gray absolute top-0 -right-[450px] xl:-right-[520px] z-10"></div>
         <img
           src={Telemetry}
           alt="telemetry"
-          className="rounded-full mb-14 md:mx-auto"
+          className="rounded-full mb-14 md:mx-auto xl:mx-0"
         />
         <Info
           title="Easy to use riding telemetry"
@@ -21,15 +21,15 @@ const Infos = () => {
           button="Learn More"
         />
       </div>
-      <div className="w-full relative">
+      <div className="w-full relative xl:flex xl:justify-between">
         <div className="absolute top-0 -left-[200px]">
           <RightArrow />
         </div>
-        <div className="hidden md:block w-[445px] h-[445px] rounded-full bg-light-gray absolute top-0 -left-[450px] z-10"></div>
+        <div className="hidden md:block w-[445px] h-[445px] rounded-full bg-light-gray absolute top-0 -left-[520px] z-10"></div>
         <img
           src={NearYou}
           alt="telemetry"
-          className="rounded-full mb-14 md:mx-auto"
+          className="rounded-full mb-14 md:mx-auto xl:mx-0"
         />
         <Info
           title="Coming to a city near you"
@@ -37,15 +37,15 @@ const Infos = () => {
           button="Learn More"
         />
       </div>
-      <div className="w-full relative">
-        <div className="absolute top-0 -right-[550px] md:-right-[400px]">
+      <div className="w-full relative xl:flex xl:flex-row-reverse xl:justify-between">
+        <div className="absolute top-0 -right-[550px] md:-right-[400px] xl:-right-[520px] xl:top-24 z-20">
           <LeftDownwardArrow />
         </div>
-        <div className="hidden md:block w-[445px] h-[445px] rounded-full bg-light-gray absolute top-0 -right-[450px] z-10"></div>
+        <div className="hidden md:block w-[445px] h-[445px] rounded-full bg-light-gray absolute top-0 -right-[450px] xl:-right-[520px] z-10"></div>
         <img
           src={Payments}
           alt="telemetry"
-          className="rounded-full mb-14 md:mx-auto"
+          className="rounded-full mb-14 md:mx-auto xl:mx-0"
         />
         <Info
           title="Zero hassle payments"
