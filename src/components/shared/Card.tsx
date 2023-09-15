@@ -17,7 +17,7 @@ const Card: React.FC<PropsType> = ({ image, num, title, description }) => {
         <h3 className="mono font-bold text-2xl text-semi-gray">{num}</h3>
       </div>
       <h3 className="mono font-bold text-2xl text-semi-gray mt-4">{title}</h3>
-      <p className="mt-7 lexend font-normal text-[15px] text-opacity-gray text-center">
+      <p className="mt-7 lexend font-normal text-[15px] text-opacity-gray text-center md:max-w-[457px]">
         {description}
       </p>
     </div>

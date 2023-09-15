@@ -41,23 +41,29 @@ const safe = [
 const About = () => {
   return (
     <div className="w-full">
-      <div className="w-full py-[60px] about-hero-mobile">
+      <div className="w-full py-[60px] md:pl-24 md:flex md:items-center md:justify-between about-hero-mobile">
         <h2 className="mono font-bold text-white text-[40px] text-center">
           About
         </h2>
+        <div className="hidden md:flex items-center gap-6 ml-auto translate-x-8">
+          <div className="w-16 h-16 border-4 rounded-full border-white"></div>
+          <div className="w-16 h-16 border-4 rounded-full border-white"></div>
+          <div className="w-16 h-16 rounded-full bg-white"></div>
+        </div>
       </div>
-      <ul className="mt-[72px] flex flex-col gap-[120px] w-full px-8">
+      <ul className="mt-[72px] flex flex-col gap-[120px] w-full px-8 md:px-24">
         <div className="w-full relative">
-          <div className="absolute top-28 -right-[420px]">
+          <div className="absolute top-28 -right-[420px] md:mt-40 md:-right-[120px]">
             <LeftUpwardArrow />
           </div>
+          <div className="hidden md:block w-[445px] h-[445px] rounded-full bg-light-gray absolute top-0 -right-[450px] xl:-right-[520px] z-10"></div>
           <img
             src={DigitalEra}
             alt="telemetry"
-            className="rounded-full mb-14"
+            className="rounded-full mb-14 md:mx-auto"
           />
-          <div className="w-full flex flex-col gap-8">
-            <h3 className="mono text-semi-gray text-[32px] tracking-[-1.429px] font-bold text-center">
+          <div className="w-full flex flex-col gap-8 md:gap-10 mx-auto">
+            <h3 className="mono text-semi-gray text-[32px] md:text-[48px] md:max-w-[457px] md:mx-auto tracking-[-1.429px] font-bold text-center">
               Mobility for the digital era
             </h3>
             <p className="lexend font-normal text-[15px] text-opacity-gray text-center">
@@ -71,13 +77,14 @@ const About = () => {
           <div className="absolute top-0 -left-[150px]">
             <RightArrow />
           </div>
+          <div className="hidden md:block w-[445px] h-[445px] rounded-full bg-light-gray absolute top-0 -left-[420px] z-10"></div>
           <img
             src={BetterLiving}
             alt="telemetry"
-            className="rounded-full mb-14"
+            className="rounded-full mb-14 md:mx-auto"
           />
           <div className="w-full flex flex-col gap-8">
-            <h3 className="mono text-semi-gray text-[32px] tracking-[-1.429px] font-bold text-center">
+            <h3 className="mono text-semi-gray text-[32px] md:text-[48px] md:max-w-[457px] md:mx-auto tracking-[-1.429px] font-bold text-center">
               Better urban living
             </h3>
             <p className="lexend font-normal text-[15px] text-opacity-gray text-center">
