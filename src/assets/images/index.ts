@@ -17,3 +17,5 @@ export { default as OurIntegrity } from "./our-integrity.jpg";
 export { default as OurCommunity } from "./our-community.jpg";
 export { default as JoinUs } from "./join-us.jpg";
 export { default as MapMobile } from "./world-map-mobile.png";
+export { default as MapTablet } from "./world-map-tablet.png";
+export { default as MapDesktop } from "./world-map-desktop.png";
