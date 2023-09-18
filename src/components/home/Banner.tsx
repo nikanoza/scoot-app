@@ -11,7 +11,7 @@ const Banner = () => {
         convenient locations in each of our cities. Use our app to locate the
         nearest bike, unlock it with a tap, and you’re away!
       </p>
-      <button className="px-10 py-3 bg-yellow mono font-bold text-base text-white border-none mt-9 md:mt-8 xl:mt-10 xl:ml-24">
+      <button className="px-10 py-3 bg-yellow mono font-bold text-base text-white border-none mt-9 md:mt-8 xl:mt-10 xl:ml-24 xl:hover:bg-transparent xl:hover:border-2 xl:hover:border-solid xl:hover:border-yellow xl:hover:text-yellow">
         Get Scootin
       </button>
       <div className="hidden md:flex items-center gap-6 mt-20 ml-auto translate-x-32">

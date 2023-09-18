@@ -14,7 +14,7 @@ const Employee: React.FC<PropsType> = ({ address, position }) => {
           {address}
         </h4>
       </div>
-      <button className="w-full md:px-16 md:w-fit py-3 bg-yellow mono font-bold text-base text-white border-none mt-4 md:mt-0">
+      <button className="w-full md:px-16 md:w-fit py-3 bg-yellow mono font-bold text-base text-white border-none mt-4 md:mt-0 xl:hover:bg-transparent xl:hover:border-2 xl:hover:border-solid xl:hover:border-yellow xl:hover:text-yellow">
         Apply
       </button>
     </div>

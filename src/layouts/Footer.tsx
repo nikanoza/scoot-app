@@ -27,19 +27,19 @@ const Footer = () => {
         <ul className="mt-10 md:mt-0 md:ml-14 flex flex-col md:flex-row gap-4 items-center">
           <Link
             to="/about"
-            className="mono font-bold text-lg text-opacity-gray"
+            className="mono font-bold text-lg text-opacity-gray xl:hover:text-yellow"
           >
             About
           </Link>
           <Link
             to="/locations"
-            className="mono font-bold text-lg text-opacity-gray"
+            className="mono font-bold text-lg text-opacity-gray xl:hover:text-yellow"
           >
             Location
           </Link>
           <Link
             to="/careers"
-            className="mono font-bold text-lg text-opacity-gray"
+            className="mono font-bold text-lg text-opacity-gray xl:hover:text-yellow"
           >
             Careers
           </Link>
