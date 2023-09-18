@@ -10,6 +10,7 @@ export default {
         yellow: "#FCB72B",
         "opacity-gray": "#939CAA",
         light: "#F2F5F9",
+        "light-yellow": "#FFF4DF",
       },
     },
   },

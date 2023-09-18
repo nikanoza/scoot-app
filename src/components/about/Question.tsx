@@ -10,7 +10,7 @@ const Question: React.FC<PropsType> = ({ question, answer }) => {
   const [showAnswer, setShowAnswer] = useState(false);
 
   return (
-    <div className="w-full xl:w-[730px] p-8 bg-light">
+    <div className="w-full xl:w-[730px] p-8 bg-light xl:hover:bg-light-yellow">
       <div className="flex justify-between items-center gap-4">
         <h3 className="mono text-lg text-semi-gray font-bold">{question}</h3>
         <div

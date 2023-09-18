@@ -26,24 +26,24 @@ const Header: React.FC<PropsType> = ({ showMenu, setShowMenu }) => {
       <ul className="md:flex gap-8 items-center ml-14 hidden">
         <Link
           to="/about"
-          className="mono font-bold text-[15px] text-opacity-gray"
+          className="mono font-bold text-[15px] text-opacity-gray xl:hover:text-yellow"
         >
           About
         </Link>
         <Link
           to="/locations"
-          className="mono font-bold text-[15px] text-opacity-gray"
+          className="mono font-bold text-[15px] text-opacity-gray xl:hover:text-yellow"
         >
           Location
         </Link>
         <Link
           to="/careers"
-          className="mono font-bold text-[15px] text-opacity-gray"
+          className="mono font-bold text-[15px] text-opacity-gray xl:hover:text-yellow"
         >
           Careers
         </Link>
       </ul>
-      <button className="hidden md:block px-10 w-fit ml-auto py-3 bg-yellow mono font-bold text-base text-white border-none">
+      <button className="hidden md:block px-10 w-fit ml-auto py-3 bg-yellow mono font-bold text-base text-white border-none xl:hover:bg-transparent xl:hover:border-2 xl:hover:border-solid xl:hover:border-yellow xl:hover:text-yellow">
         Get Scootin
       </button>
     </header>
